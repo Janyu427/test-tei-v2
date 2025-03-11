@@ -5,13 +5,6 @@ import api from "@/assets/script/api";
 
 import Content from "./content";
 
-interface item {
-    key: string,
-    title: string,
-    enTitle: string,
-    titleImgUrl: string
-};
-
 const App = async () => {
     const headersList = await headers();
 

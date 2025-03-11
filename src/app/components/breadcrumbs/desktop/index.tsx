@@ -4,7 +4,6 @@ import { headers } from "next/headers";
 import api from "@/assets/script/api";
 
 import Content from "./content";
-import path from "path";
 
 const App = async () => {
     const headersList = await headers();

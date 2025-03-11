@@ -32,8 +32,6 @@ export const generateMetadata = async ({ params }: { params: Params }) => {
 
     const productDetails = await api.productDetails.getFetch(id);
 
-    const productOrder = parseInt(id) - 1;
-
     const productName = productDetails.title;
 
     return {

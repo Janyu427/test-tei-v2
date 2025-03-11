@@ -5,7 +5,6 @@ import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "@/public/logo.svg";
 import logotypeWhite from "@/public/logotype.svg";
 import logoIcon from "@/public/logo_icon.svg";
 import facebook from "@/public/facebook-f.svg";
